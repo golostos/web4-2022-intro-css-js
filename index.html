@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="appbar">
+        <div class="menu-burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <div class="main-menu-group">
+            <nav>
+                <ul class="main-menu">
+                    <li class="main-menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn main-menu-btn" id="signup-btn">Sign up</button>
+            <button class="btn main-menu-btn">Login</button>
+        </div>
+        <h3>Our website</h3>
+    </header>
+    <article>
+        <section class="main-section">
+            <div class="main-section-info">
+                <h1>Main page</h1>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore, voluptatem officiis laborum ad mollitia animi dolores, quaerat voluptates doloremque repudiandae! Sunt eligendi minus dolorum maxime ratione illum in labore.</h5>
+                <button class="btn">More...</button>
+            </div>
+        </section>
+    </article>
+    <!-- <img style="width: 100%;" src="./187867_or.jpg" alt="Sea" /> -->
+    <!-- form>input*5+button[type="submit"]{Send} -->
+    <div class="form-background" id="signup-form">
+        <form class="signup-form" id="form_id" action="">
+            <div class="form-elem">
+                <label for="name">name</label>
+                <input id="name" type="text" name="name" placeholder="name">
+            </div>
+            
+            <div class="form-elem">
+                <label for="lastname">lastname</label>
+                <input id="lastname" type="text" name="lastname" placeholder="lastname">
+            </div>
+            
+            <div class="form-elem">
+                <label for="email">email</label>
+                <input id="email" type="email" name="email" placeholder="email">
+            </div>
+            
+            <div class="form-elem">
+                <label for="phone">phone</label>
+                <input id="phone" type="text" name="phone" placeholder="phone">
+            </div>
+            
+            <div class="form-elem">
+                <label for="password">password</label>
+                <input id="password" type="password" name="password" placeholder="password">
+            </div>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- ?name=Alex&lastname=Dmit&email=sdfsd%40dfdfgfd.ru&phone=324234&password=dsfsdjhf -->
