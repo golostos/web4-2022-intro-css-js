@@ -1,0 +1,27 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon --watch server server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golostos/web4-2022-intro-css-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golostos/web4-2022-intro-css-js/issues"
+  },
+  "homepage": "https://github.com/golostos/web4-2022-intro-css-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
