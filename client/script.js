@@ -35,6 +35,8 @@ form.onsubmit = async function(event) {
         formBackground.classList.remove('form-background__show')
         const user = await response.json()
         console.log(user);
+    } else {
+        response.status === 400
     }
 }
 

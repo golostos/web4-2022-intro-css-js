@@ -20,11 +20,16 @@
   "homepage": "https://github.com/golostos/web4-2022-intro-css-js#readme",
   "dependencies": {
     "@prisma/client": "^4.4.0",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "zod": "^3.19.1"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.9",
     "nodemon": "^2.0.20",
     "prisma": "^4.4.0"
   }
