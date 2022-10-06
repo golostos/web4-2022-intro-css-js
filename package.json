@@ -4,7 +4,8 @@
   "description": "",
   "main": "server/app.js",
   "scripts": {
-    "dev": "nodemon --watch server server/app.js"
+    "dev": "nodemon --watch server server/app.js",
+    "prisma:migrate:dev": "prisma migrate dev"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,13 @@
   },
   "homepage": "https://github.com/golostos/web4-2022-intro-css-js#readme",
   "dependencies": {
+    "@prisma/client": "^4.4.0",
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prisma": "^4.4.0"
   }
 }
